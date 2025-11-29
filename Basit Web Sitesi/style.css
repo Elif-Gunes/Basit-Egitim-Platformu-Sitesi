@@ -1,0 +1,163 @@
+body{
+    font-family: "Arial", sans-serif;
+    margin: 0; /* dış boşluk */
+    padding: 0; /* iç boşluk */
+    box-sizing: border-box; /* Bu özellik aktifken, padding ve border artık width ve height değerine dahil edilir. */
+}
+
+a{
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Bu kod, bir kutuyu yatayda ortalamak için kullanılır. 0 → üstten ve alttan boşluk yok
+    auto → sağdan ve soldan otomatik boşluk (eşit mesafe)*/
+    padding: 0 20px;
+}
+
+.course-container {
+    margin: 0px 10px;
+}
+
+.all-courses {
+    display: flex;
+}
+
+header {
+    background-color: #016B61;
+    color: white;
+    padding: 20px 0px;
+}
+
+header h1,
+nav {
+    text-align: center; /* metnin yatay hizasını belirler. */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline; /* Satır içinde yer alır (yani aynı satırda başka elemanlarla yan yana durur).Genişlik (width) ve yükseklik (height) veremezsin (yoksayılır). */
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color:white ;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: #70B2B2;
+    padding: 20px 0px;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.hero h2 {
+    color: #016B61;
+}
+
+.cta-button {
+    display: inline-block; /* Inline gibi yan yana durur, ama…
+Block gibi width, height, margin ve padding alabilir.
+Yani hem satır içinde hem de boyutlandırılabilir davranır */
+ background-color: #016B61;
+ color: white;
+ padding: 10px 20px;
+ text-decoration: none;
+ font-weight: bold;
+ border-radius: 5px;
+ transition: 300ms all;
+}
+
+.cta-button:hover {
+    background-color: #8fe7d3;
+}
+
+
+.courses {
+    padding: 40px 0px;
+}
+
+.courses .container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #016B61;
+}
+.hero .container p {
+    color: #016B61;
+}
+
+/* Tüm kursları iki sütun yap */
+.all-courses {
+    display: flex;
+    justify-content: space-between; /* space-between → ilk öğeyi sola, son öğeyi sağa yaslar, aradaki öğeleri eşit boşluk bırakacak şekilde dağıtır. */
+    gap: 20px;
+    
+}
+
+/* Her sütun alt alta kurslar */
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 48%; /* iki sütun sığacak şekilde */
+}
+.course {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer; /* fare imlecinin (cursor) o elementin üzerine geldiğinde “el simgesi” şeklinde görünmesini sağlar */
+    transition: 300ms all;
+    color: white;
+}
+
+.course:hover {
+    border-color: black;
+}
+
+.course img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.course-info {
+    flex-grow: 1; /* bu içeriği resimden sonra tam genişlikte yayar. */
+}
+
+.course h3 {
+    margin: 0;
+    color: #016B61;
+}
+
+.course p {
+    margin: 0;
+    color: #327e7e;
+}
+
+footer {
+    background-color: #9ECFD4;
+    color: #327e7e;
+    padding: 20px 0px;
+    text-align: center;
+}
