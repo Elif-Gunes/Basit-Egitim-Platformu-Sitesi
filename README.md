@@ -1,3 +1,3 @@
-[index.html](https://github.com/user-attachments/files/23833648/index.html)
+## 🔗 Canlı Site
+Canlı siteyi görmek için 👉 [Basit Eğitim Platformu Sitesi](https://Elif-Gunes.github.io/Basit-Egitim-Platformu-Sitesi/)
 
-[style.css](https://github.com/user-attachments/files/23833650/style.css)
