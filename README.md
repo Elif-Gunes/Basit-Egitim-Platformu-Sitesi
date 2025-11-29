@@ -1,2 +1,3 @@
-[index.html](https://github.com/user-attachments/files/23833368/index.html)
+## Canlı Site
 
+[Web sitemi görmek için tıkla](https://Elif-Gunes.github.io/Basit-Egitim-Platformu-Sitesi/)
