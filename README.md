@@ -1,2 +1,1 @@
-## Canlı Site
-Canlı siteyi görmek için 👉 [Buraya tıkla](https://Elif-Gunes.github.io/Basit-Egitim-Platformu-Sitesi/)
+[index.html](https://github.com/user-attachments/files/23833508/index.html)
